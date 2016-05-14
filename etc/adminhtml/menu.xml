@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MagentoHackathon_ImportProfiles::Profiles" title="Import / Export Profiles"
+             module="MagentoHackathon_ImportProfiles" sortOrder="30" resource="MagentoHackathon_ImportProfiles::Profiles"/>
+        <add id="MagentoHackathon_ImportProfiles::Profiles_manage" title="All Profiles"
+             module="MagentoHackathon_ImportProfiles" sortOrder="10" parent="MagentoHackathon_ImportProfiles::Profiles"
+             action="ImportProfiles/index/" resource="MagentoHackathon_ImportProfiles::manage"/>
+    </menu>
+</config>
