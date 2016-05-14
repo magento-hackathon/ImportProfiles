@@ -8,7 +8,12 @@
 Add the following section to your composer.json:
 
 ```
-
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "git@github.com:magento-hackathon/ImportProfiles.git"
+    }
+],
 ```
 
 Now you need to require the module
